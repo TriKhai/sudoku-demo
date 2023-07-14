@@ -1,0 +1,130 @@
+:root {
+    --size-main: 500px;
+    --size-gap: 7px;
+    --color-background: #F9F5F6;
+    --color-skd-cell-hover: #FF2171;
+    --color-skd-cell: #F8E8EE;
+/* #F8E8EE
+#FDCEDF 
+#FDCEDF*/
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    background-color: var(--color-background);
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sdk-title{
+    margin: 20px 0px 30px 40px;
+    text-align: center;
+    color: var(--color-skd-cell-hover);
+}
+
+.main-sdk-grid {
+    display: grid;
+    grid-template-columns: repeat(9, auto);
+    height: var(--size-main);
+    width: var(--size-main);
+    column-gap: var(--size-gap);
+    row-gap: var(--size-gap);
+}
+
+.sdk-cell{
+    background-color: var(--color-skd-cell);
+    height: 50px;
+    width: 50px;
+    border-radius: 8px;
+    border: 2px solid;
+    border-color: var(--color-skd-cell);
+    text-align: center;
+    outline:none;
+    font-size: 1.5rem;
+    color: #FF2171;
+}
+
+.sdk-cell:hover{
+    border: 2px solid var(--color-skd-cell-hover);
+}
+
+.sdk-cell.hover{
+    border: 2px solid var(--color-skd-cell-hover);
+}
+
+.sdk-cell.selected{
+    background-color: #FF2171;
+    color: #F8E8EE;
+}
+/*  */
+.sdk-cell.false{
+    background-color: #FF6666   ;
+    color: #F8E8EE;
+}
+
+.sdk-cell.oReadInput, .sdk-cell.oReadInput.false{
+    background-color: #FDCEDF;
+    color: #B34180;
+    ;
+}
+
+.btn-sdk{
+    margin-top: 100px;
+    margin-left: 36px;
+    height: 50px;
+    width: 100px;
+}
+
+.btn-sdk:hover button{
+    background-color: #FF2171;
+    /* border: 3px solid #FF2171; */
+    color: #F8E8EE;
+}
+
+.btn-sdk button{
+    height: 100%;
+    width: 100%;
+    background-color: #F8E8EE;
+    border: 3px solid #FF2171;
+    border-radius: 10px;
+    color: #FF2171;
+    outline: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+a{
+    z-index: 99999;
+}
+
+.reset-gem {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    height: 80px;
+    width: 80px;
+    background-color: #FDCEDF;
+    border-radius: 10px;
+    /* text-align: center;  */
+}
+
+/* .con-rest{
+    background-color: #FDCEDF;
+
+} */
+
+.reset-gem:hover{
+
+    background-color: #FF2171;
+    
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suduku</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- <canvas id="myCanvas" width="480" height="320"></canvas> -->
+    <div class="main">
+        <a class="" href="">
+            <div title="game mới" class="reset-gem">
+                
+            </div>
+        </a>
+        <!-- <ion-icon class="icon-rest" name="disc"></ion-icon> -->
+        <div class="container">
+            <h1 class="sdk-title">Sudoku Game</h1>
+        <div class="main-sdk-grid" id="sdk-grid">
+                <!-- map gem -->
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+                <input type="text" maxlength="1" pattern="[1-9]" title="Vui lòng chỉ nhập từ 1 đến 9" class="sdk-cell"/>
+            </div>
+            <div class="btn-sdk">
+                <button type="button" id="btn-check">Check</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+    <script src="js/game.js"></script>
+    <!-- <script src="js/test.js"></script> -->
+    <!-- icon ionic -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
